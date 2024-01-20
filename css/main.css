@@ -1,0 +1,96 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header{
+    color: #fff;
+    width: 100%;
+    height: 650px;
+    background:linear-gradient( rgba(214, 46, 51 , 0.6) , rgba(214, 46, 51 , 0.6) ) , url(../img/events-heavenly-header.jpg) ;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+.header span{
+    font-size:30px;
+    cursor: pointer;
+}
+.openNav{
+    font-size:30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.sidenav{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -34%;
+}
+.sidenav a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    transition: .3s;
+}
+.sidenav p {
+    padding: 20px 15%;
+}
+.sidenav a:hover{
+    color: #831f29;
+}
+
+.inner{
+    display: none;
+}
+.down h3{
+    padding: 10px;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+.cont{
+    width: 100%;
+    padding: 50px;
+    background:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(../img/invitation-2508607__340.jpg) ;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.icons p{
+    margin-bottom: 35px;
+}
+
+.social-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+}
+.social-list i:hover{
+    color: #FFF;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
