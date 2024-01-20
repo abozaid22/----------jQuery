@@ -2,12 +2,10 @@
 
 $(".openNav").on("click" ,function () {
     $(".sidenav").animate({left: "0%"},1000)
-    $(".openNav").animate({left: "34%"},1000)
 })
 
 $(".closebtn").on("click" ,function () {
-    $(".sidenav").animate({left: "-34%"},1000)
-    $(".openNav").animate({left: "10px"},1000)
+    $(".sidenav").animate({left: "-220px"},1000)
 })
 
 
